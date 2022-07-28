@@ -1,5 +1,3 @@
-
-
 presubmits:
   theokdexperience/oc:
   - agent: kubernetes
