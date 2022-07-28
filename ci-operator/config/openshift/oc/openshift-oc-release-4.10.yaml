@@ -19,6 +19,7 @@ base_images:
     name: "4.10"
     namespace: ocp
     tag: tests
+
 binary_build_commands: make build --warn-undefined-variables
 build_root:
   from_repository: true
