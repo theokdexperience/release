@@ -54,6 +54,9 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
+      - name: gcs-credentials
+        secret:
+          secretName: gce-sa-credentials-gcs-publisher
       - name: osde2e-common
         secret:
           secretName: osde2e-common

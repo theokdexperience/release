@@ -63,6 +63,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -133,6 +136,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-equinix-ocp-metal
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials

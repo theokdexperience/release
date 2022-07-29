@@ -44,6 +44,9 @@ postsubmits:
       - name: deadmanssnitch-operator-codecov-token
         secret:
           secretName: deadmanssnitch-operator-codecov-token
+      - name: gcs-credentials
+        secret:
+          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials

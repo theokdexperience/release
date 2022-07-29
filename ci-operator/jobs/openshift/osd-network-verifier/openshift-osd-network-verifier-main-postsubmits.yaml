@@ -43,6 +43,9 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
+      - name: gcs-credentials
+        secret:
+          secretName: gce-sa-credentials-gcs-publisher
       - name: osd-network-verifier-codecov-token
         secret:
           secretName: osd-network-verifier-codecov-token
