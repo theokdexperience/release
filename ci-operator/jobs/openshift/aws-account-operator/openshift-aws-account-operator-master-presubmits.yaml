@@ -47,9 +47,6 @@ presubmits:
       - name: aws-account-operator-codecov-token
         secret:
           secretName: aws-account-operator-codecov-token
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -97,9 +94,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -160,9 +154,6 @@ presubmits:
       - name: ci-pull-credentials
         secret:
           secretName: ci-pull-credentials
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: hive-hive-credentials
         secret:
           secretName: hive-hive-credentials
@@ -213,9 +204,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -263,9 +251,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -313,9 +298,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials

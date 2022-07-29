@@ -45,9 +45,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -97,9 +94,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -145,9 +139,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -194,9 +185,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -242,9 +230,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -291,9 +276,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -339,9 +321,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -388,9 +367,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -436,9 +412,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -484,9 +457,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -532,9 +502,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -580,9 +547,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -628,9 +592,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -676,9 +637,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -724,9 +682,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -772,9 +727,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -832,9 +784,6 @@ postsubmits:
       - name: ci-pull-credentials
         secret:
           secretName: ci-pull-credentials
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: hive-hive-credentials
         secret:
           secretName: hive-hive-credentials
@@ -883,9 +832,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -931,9 +877,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -979,9 +922,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -1027,9 +967,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -1075,9 +1012,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -1123,9 +1057,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -1179,9 +1110,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -1232,9 +1160,6 @@ postsubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials

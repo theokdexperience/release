@@ -69,9 +69,6 @@ periodics:
             name: cluster-secrets-gcp
         - configMap:
             name: cluster-profile-gcp
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -148,9 +145,6 @@ periodics:
             name: cluster-secrets-gcp
         - configMap:
             name: cluster-profile-gcp
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials

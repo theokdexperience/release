@@ -63,9 +63,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -136,9 +133,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -209,9 +203,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -282,9 +273,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -355,9 +343,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -428,9 +413,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -501,9 +483,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -574,9 +553,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -647,9 +623,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -720,9 +693,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -793,9 +763,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -866,9 +833,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -939,9 +903,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1012,9 +973,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1085,9 +1043,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1158,9 +1113,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1231,9 +1183,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1304,9 +1253,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1377,9 +1323,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1450,9 +1393,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1523,9 +1463,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1596,9 +1533,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1673,9 +1607,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-assisted
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1750,9 +1681,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-packet-sno
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials

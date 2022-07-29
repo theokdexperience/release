@@ -66,9 +66,6 @@ presubmits:
       - name: cluster-profile
         secret:
           secretName: cluster-secrets-equinix-ocp-metal
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -142,9 +139,6 @@ presubmits:
       - name: cluster-profile
         secret:
           secretName: cluster-secrets-equinix-ocp-metal
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -217,9 +211,6 @@ presubmits:
       - name: cluster-profile
         secret:
           secretName: cluster-secrets-equinix-ocp-metal
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -293,9 +284,6 @@ presubmits:
       - name: cluster-profile
         secret:
           secretName: cluster-secrets-equinix-ocp-metal
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -369,9 +357,6 @@ presubmits:
       - name: cluster-profile
         secret:
           secretName: cluster-secrets-equinix-ocp-metal
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -419,9 +404,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -469,9 +451,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -519,9 +498,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -570,9 +546,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
@@ -620,9 +593,6 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials

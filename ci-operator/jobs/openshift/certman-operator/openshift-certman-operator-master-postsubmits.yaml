@@ -44,9 +44,6 @@ postsubmits:
       - name: certman-operator-codecov-token
         secret:
           secretName: certman-operator-codecov-token
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials

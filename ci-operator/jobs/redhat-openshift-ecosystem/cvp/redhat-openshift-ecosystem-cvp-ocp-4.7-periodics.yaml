@@ -65,9 +65,6 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-cpaas
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -126,9 +123,6 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: hive-hive-credentials
       secret:
         secretName: hive-hive-credentials
@@ -186,9 +180,6 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -243,9 +234,6 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -300,9 +288,6 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
-    - name: gcs-credentials
-      secret:
-        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials

@@ -48,9 +48,6 @@ postsubmits:
       - name: assisted-service-codecov-token
         secret:
           secretName: assisted-service-codecov-token
-      - name: gcs-credentials
-        secret:
-          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
