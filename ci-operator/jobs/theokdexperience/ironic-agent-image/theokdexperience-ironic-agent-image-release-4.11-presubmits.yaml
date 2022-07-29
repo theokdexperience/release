@@ -887,4 +887,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )prevalidation-images,?($|\s.*)
-

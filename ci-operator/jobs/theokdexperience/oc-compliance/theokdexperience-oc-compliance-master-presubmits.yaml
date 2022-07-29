@@ -125,4 +125,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )go-build,?($|\s.*)
-

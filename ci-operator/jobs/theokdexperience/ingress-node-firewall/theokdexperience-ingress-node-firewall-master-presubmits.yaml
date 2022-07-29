@@ -183,4 +183,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )ingress-node-firewall-e2e-metal-ipi,?($|\s.*)
-

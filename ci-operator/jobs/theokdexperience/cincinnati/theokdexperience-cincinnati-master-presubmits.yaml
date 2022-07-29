@@ -664,4 +664,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )yaml-lint,?($|\s.*)
-

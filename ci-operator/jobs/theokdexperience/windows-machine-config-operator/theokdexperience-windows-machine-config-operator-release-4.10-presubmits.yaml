@@ -748,5 +748,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )vsphere-e2e-operator,?($|\s.*)
-
-

@@ -1227,4 +1227,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )subsystem-kubeapi-aws,?($|\s.*)
-

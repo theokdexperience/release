@@ -494,4 +494,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )4.9-images,?($|\s.*)
-

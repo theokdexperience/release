@@ -786,4 +786,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )49-reconciler-aws-ocp-49,?($|\s.*)
-

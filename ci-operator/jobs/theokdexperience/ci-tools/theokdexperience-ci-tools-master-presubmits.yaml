@@ -566,4 +566,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )validate-vendor,?($|\s.*)
-

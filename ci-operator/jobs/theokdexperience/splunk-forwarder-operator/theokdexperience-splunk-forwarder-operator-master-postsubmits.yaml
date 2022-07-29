@@ -50,4 +50,3 @@ postsubmits:
       - name: splunk-forwarder-operator-codecov-token
         secret:
           secretName: splunk-forwarder-operator-codecov-token
-
