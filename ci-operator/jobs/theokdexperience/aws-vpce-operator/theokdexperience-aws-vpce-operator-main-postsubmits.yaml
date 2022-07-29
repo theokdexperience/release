@@ -44,10 +44,12 @@ postsubmits:
       - name: aws-vpce-operator-codecov-token
         secret:
           secretName: aws-vpce-operator-codecov-token
+      - name: gcs-credentials
+        secret:
+          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials
       - name: result-aggregator
         secret:
           secretName: result-aggregator
-

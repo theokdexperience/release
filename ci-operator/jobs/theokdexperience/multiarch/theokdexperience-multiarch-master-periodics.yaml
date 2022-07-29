@@ -68,6 +68,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -143,6 +146,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -218,6 +224,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -293,6 +302,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -368,6 +380,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -444,6 +459,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -520,6 +538,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -596,6 +617,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -672,6 +696,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -747,6 +774,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -823,6 +853,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -899,6 +932,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -974,6 +1010,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1050,6 +1089,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1126,6 +1168,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1201,6 +1246,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1276,6 +1324,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1352,6 +1403,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1428,6 +1482,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1504,6 +1561,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1580,6 +1640,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1655,6 +1718,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1730,6 +1796,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1805,6 +1874,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1880,6 +1952,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1955,6 +2030,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-2
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2030,6 +2108,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2105,6 +2186,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2181,6 +2265,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2257,6 +2344,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2332,6 +2422,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2408,6 +2501,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2484,6 +2580,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2559,6 +2658,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2634,6 +2736,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-2
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2710,6 +2815,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2786,6 +2894,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2861,6 +2972,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -2936,6 +3050,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3012,6 +3129,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3088,6 +3208,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3163,6 +3286,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3238,6 +3364,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3314,6 +3443,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3390,6 +3522,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3465,6 +3600,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3541,6 +3679,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3617,6 +3758,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3692,6 +3836,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3767,6 +3914,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3842,6 +3992,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3917,6 +4070,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -3992,6 +4148,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4067,6 +4226,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-2
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4142,6 +4304,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4217,6 +4382,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4293,6 +4461,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4369,6 +4540,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4444,6 +4618,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4520,6 +4697,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4596,6 +4776,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4671,6 +4854,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4746,6 +4932,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-2
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4822,6 +5011,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4898,6 +5090,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -4973,6 +5168,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5048,6 +5246,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5124,6 +5325,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5200,6 +5404,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5275,6 +5482,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5350,6 +5560,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5426,6 +5639,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5502,6 +5718,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5577,6 +5796,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5653,6 +5875,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5729,6 +5954,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5804,6 +6032,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5880,6 +6111,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -5956,6 +6190,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6032,6 +6269,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6108,6 +6348,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6184,6 +6427,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6260,6 +6506,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6336,6 +6585,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6412,6 +6664,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6488,6 +6743,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6564,6 +6822,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6640,6 +6901,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6716,6 +6980,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6792,6 +7059,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6868,6 +7138,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -6944,6 +7217,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7020,6 +7296,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7096,6 +7375,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7172,6 +7454,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7248,6 +7533,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7324,6 +7612,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7400,6 +7691,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7476,6 +7770,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7552,6 +7849,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7628,6 +7928,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7703,6 +8006,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7779,6 +8085,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7855,6 +8164,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -7931,6 +8243,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8007,6 +8322,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8083,6 +8401,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8159,6 +8480,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8235,6 +8559,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8311,6 +8638,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8386,6 +8716,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-arm64
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8462,6 +8795,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8538,6 +8874,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8614,6 +8953,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-ppc64le
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -8690,10 +9032,12 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-libvirt-s390x
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
     - name: result-aggregator
       secret:
         secretName: result-aggregator
-

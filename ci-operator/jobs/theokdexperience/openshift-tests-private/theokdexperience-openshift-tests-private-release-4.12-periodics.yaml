@@ -72,6 +72,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -154,6 +157,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -236,6 +242,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -318,6 +327,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -400,6 +412,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -482,6 +497,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -564,6 +582,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -646,6 +667,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -728,6 +752,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -810,6 +837,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -892,6 +922,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -974,6 +1007,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1056,6 +1092,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1138,6 +1177,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-usgov-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1220,6 +1262,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-usgov-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1302,6 +1347,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1384,6 +1432,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1466,6 +1517,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1548,6 +1602,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1630,6 +1687,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1712,6 +1772,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1794,6 +1857,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1876,6 +1942,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -1958,6 +2027,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2040,6 +2112,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2122,6 +2197,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2204,6 +2282,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2286,6 +2367,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2368,6 +2452,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2450,6 +2537,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2532,6 +2622,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2614,6 +2707,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2696,6 +2792,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2778,6 +2877,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2860,6 +2962,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -2942,6 +3047,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3024,6 +3132,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3106,6 +3217,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3188,6 +3302,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3270,6 +3387,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3352,6 +3472,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3434,6 +3557,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3516,6 +3642,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3598,6 +3727,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3680,6 +3812,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3761,6 +3896,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3842,6 +3980,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -3923,6 +4064,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4004,6 +4148,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4085,6 +4232,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4166,6 +4316,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4247,6 +4400,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4328,6 +4484,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4409,6 +4568,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4490,6 +4652,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4571,6 +4736,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-usgov-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4652,6 +4820,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-usgov-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4733,6 +4904,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4814,6 +4988,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4895,6 +5072,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -4976,6 +5156,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5057,6 +5240,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5138,6 +5324,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5219,6 +5408,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5300,6 +5492,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5381,6 +5576,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5462,6 +5660,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5543,6 +5744,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5624,6 +5828,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5705,6 +5912,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5786,6 +5996,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5867,6 +6080,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -5948,6 +6164,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6029,6 +6248,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6110,6 +6332,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6191,6 +6416,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6272,6 +6500,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6353,6 +6584,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6434,6 +6668,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6515,6 +6752,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6596,6 +6836,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6677,6 +6920,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6758,6 +7004,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6839,6 +7088,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -6920,6 +7172,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -7001,6 +7256,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -7082,6 +7340,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: github-credentials-openshift-ci-robot-private-git-cloner
       secret:
         secretName: github-credentials-openshift-ci-robot-private-git-cloner
@@ -7091,4 +7352,3 @@ periodics:
     - name: result-aggregator
       secret:
         secretName: result-aggregator
-

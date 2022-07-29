@@ -58,6 +58,9 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -123,6 +126,9 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
