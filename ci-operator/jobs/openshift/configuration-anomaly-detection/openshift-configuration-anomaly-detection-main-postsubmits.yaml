@@ -46,6 +46,9 @@ postsubmits:
       - name: configuration-anomaly-detection-codecov-token
         secret:
           secretName: configuration-anomaly-detection-codecov-token
+      - name: gcs-credentials
+        secret:
+          secretName: gce-sa-credentials-gcs-publisher
       - name: pull-secret
         secret:
           secretName: registry-pull-credentials

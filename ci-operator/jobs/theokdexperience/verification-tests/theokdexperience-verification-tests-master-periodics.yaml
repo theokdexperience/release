@@ -68,6 +68,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -143,6 +146,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-usgov-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -218,6 +224,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -293,6 +302,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azuremag-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -368,6 +380,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -443,6 +458,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -518,6 +536,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -593,6 +614,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -668,6 +692,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -743,6 +770,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-gcp-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -818,6 +848,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -892,6 +925,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-2
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -966,6 +1002,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure-2
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1040,6 +1079,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-azure4
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1118,6 +1160,9 @@ periodics:
             name: cluster-secrets-gcp
         - configMap:
             name: cluster-profile-gcp
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1196,6 +1241,9 @@ periodics:
             name: cluster-secrets-gcp
         - configMap:
             name: cluster-profile-gcp
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1270,6 +1318,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-openstack
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1344,6 +1395,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1418,6 +1472,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1492,6 +1549,9 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-aws-qe
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
@@ -1566,10 +1626,12 @@ periodics:
     - name: cluster-profile
       secret:
         secretName: cluster-secrets-vsphere
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: pull-secret
       secret:
         secretName: registry-pull-credentials
     - name: result-aggregator
       secret:
         secretName: result-aggregator
-

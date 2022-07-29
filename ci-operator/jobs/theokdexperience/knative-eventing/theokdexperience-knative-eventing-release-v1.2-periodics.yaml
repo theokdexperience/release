@@ -54,6 +54,9 @@ periodics:
     - name: ci-pull-credentials
       secret:
         secretName: ci-pull-credentials
+    - name: gcs-credentials
+      secret:
+        secretName: gce-sa-credentials-gcs-publisher
     - name: hive-hive-credentials
       secret:
         secretName: hive-hive-credentials
@@ -63,4 +66,3 @@ periodics:
     - name: result-aggregator
       secret:
         secretName: result-aggregator
-

@@ -46,6 +46,9 @@ presubmits:
           readOnly: true
       serviceAccountName: ci-operator
       volumes:
+      - name: gcs-credentials
+        secret:
+          secretName: gce-sa-credentials-gcs-publisher
       - name: hac-infra-codecov-token
         secret:
           secretName: hac-infra-codecov-token
@@ -56,4 +59,3 @@ presubmits:
         secret:
           secretName: result-aggregator
     trigger: (?m)^/test( | .* )test,?($|\s.*)
-
