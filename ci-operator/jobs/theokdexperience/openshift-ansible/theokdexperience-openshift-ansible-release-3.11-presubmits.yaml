@@ -20,7 +20,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-atomic-cluster-profile
         - --target=e2e-atomic
@@ -33,7 +32,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-atomic
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel/minimal TEST_SKIP='(\[local\]|\[templates\]|\[Feature:Router\]|Kubectl
             logs)' run-tests
@@ -96,7 +95,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-aws-cluster-profile
         - --target=e2e-aws
@@ -109,7 +107,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-aws
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel/minimal TEST_SKIP='(\[local\]|\[templates\]|\[Feature:Router\]|Kubectl
             logs)' run-tests
@@ -172,7 +170,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-gcp-cluster-profile
         - --target=e2e-gcp
@@ -185,7 +182,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-gcp
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel/minimal TEST_SKIP='(\[local\]|\[templates\]|\[Feature:Router\]|Kubectl
             logs)' run-tests
@@ -250,7 +247,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-gcp-crio-cluster-profile
         - --target=e2e-gcp-crio
@@ -263,7 +259,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-gcp-crio
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel/minimal run-tests
         image: ci-operator:latest
@@ -326,7 +322,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-gcp-ha-cluster-profile
         - --target=e2e-gcp-ha
@@ -339,7 +334,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-gcp-ha
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel run-tests
         image: ci-operator:latest
@@ -402,7 +397,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-gcp-logging-cluster-profile
         - --target=e2e-gcp-logging
@@ -415,7 +409,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-gcp-logging
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel run-tests
         image: ci-operator:latest
@@ -478,7 +472,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --secret-dir=/usr/local/e2e-gluster-cluster-profile
         - --target=e2e-gluster
@@ -491,7 +484,7 @@ presubmits:
         - name: JOB_NAME_SAFE
           value: e2e-gluster
         - name: RPM_REPO_OPENSHIFT_ORIGIN
-          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.ci.l2s4.p1.openshiftapps.com/openshift-origin-v3.11/
+          value: https://artifacts-rpms-openshift-origin-ci-rpms.apps.okd4.theokdexperience.com/openshift-origin-v3.11/
         - name: TEST_COMMAND
           value: TEST_FOCUS=Suite:openshift/conformance/parallel/minimal TEST_SKIP='(\[local\]|\[templates\]|\[Feature:Router\]|Kubectl
             logs)' run-tests
@@ -554,7 +547,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --target=[images]
         command:
@@ -603,7 +595,6 @@ presubmits:
       containers:
       - args:
         - --gcs-upload-secret=/secrets/gcs/service-account.json
-        - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
         - --report-credentials-file=/etc/report/credentials
         - --target=unit
         command:
