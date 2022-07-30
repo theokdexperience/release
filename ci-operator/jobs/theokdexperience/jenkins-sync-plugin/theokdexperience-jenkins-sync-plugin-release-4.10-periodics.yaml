@@ -71,3 +71,4 @@ periodics:
       secret:
         secretName: result-aggregator
 
+
