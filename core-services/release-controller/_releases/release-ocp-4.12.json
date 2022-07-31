@@ -119,16 +119,16 @@
         "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-aws-sdn-serial"
       }
     },
-    "aws-single-node": {
+    "aws-ovn-single-node": {
       "optional": true,
       "prowJob": {
-        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-aws-single-node"
+        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-aws-ovn-single-node"
       }
     },
-    "aws-single-node-serial": {
+    "aws-ovn-single-node-serial": {
       "optional": true,
       "prowJob": {
-        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-aws-single-node-serial"
+        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-aws-ovn-single-node-serial"
       }
     },
     "aws-sdn-techpreview": {
@@ -185,7 +185,7 @@
         "name": "periodic-ci-openshift-release-master-ci-4.12-e2e-azure-sdn-techpreview-serial"
       }
     },
-    "azure-upgrade-single-node": {
+    "azure-upgrade-ovn-single-node": {
       "optional": true,
       "prowJob": {
         "name": "periodic-ci-openshift-release-master-ci-4.12-e2e-azure-upgrade-ovn-single-node"
@@ -288,7 +288,7 @@
         "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-metal-ipi-serial-ovn-dualstack"
       }
     },
-    "metal-sdn-ipi-serial-virtualmedia": {
+    "metal-ipi-serial-virtualmedia": {
       "optional": true,
       "prowJob": {
         "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-metal-ipi-serial-virtualmedia"
@@ -324,10 +324,10 @@
       "upgrade": true,
       "upgradeFrom": "PreviousMinor"
     },
-    "metal-ipi-virtualmedia": {
+    "metal-ipi-sdn-virtualmedia": {
       "optional": true,
       "prowJob": {
-        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-metal-ipi-virtualmedia"
+        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-metal-ipi-sdn-virtualmedia"
       }
     },
     "metal-serial": {
@@ -366,10 +366,10 @@
         "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-aws-proxy"
       }
     },
-    "single-node-live-iso": {
+    "ovn-single-node-live-iso": {
       "optional": true,
       "prowJob": {
-        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-metal-single-node-live-iso"
+        "name": "periodic-ci-openshift-release-master-nightly-4.12-e2e-metal-ovn-single-node-live-iso"
       }
     },
     "sdn-upgrade": {
