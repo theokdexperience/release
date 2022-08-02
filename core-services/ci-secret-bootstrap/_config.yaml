@@ -3110,6 +3110,9 @@ secret_configs:
       - auth_field: token_image-puller_build05_reg_auth_value.txt
         item: build_farm
         registry_url: registry.build05.ci.openshift.org
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
       - auth_field: token_image-puller_vsphere_reg_auth_value.txt
         item: build_farm
         registry_url: registry.apps.build01-us-west-2.vmc.ci.openshift.org
@@ -3168,6 +3171,9 @@ secret_configs:
       - auth_field: token_image-puller_build05_reg_auth_value.txt
         item: build_farm
         registry_url: registry.build05.ci.openshift.org
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
       - auth_field: token_image-puller_vsphere_reg_auth_value.txt
         item: build_farm
         registry_url: registry.apps.build01-us-west-2.vmc.ci.openshift.org
@@ -3876,6 +3882,9 @@ secret_configs:
       - auth_field: token_image-puller_build05_reg_auth_value.txt
         item: build_farm
         registry_url: registry.build05.ci.openshift.org
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
       - auth_field: token_image-puller_vsphere_reg_auth_value.txt
         item: build_farm
         registry_url: registry.apps.build01-us-west-2.vmc.ci.openshift.org
@@ -3990,6 +3999,9 @@ secret_configs:
       - auth_field: token_image-puller_build05_reg_auth_value.txt
         item: build_farm
         registry_url: registry.build05.ci.openshift.org
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
       - auth_field: token_image-puller_vsphere_reg_auth_value.txt
         item: build_farm
         registry_url: registry.apps.build01-us-west-2.vmc.ci.openshift.org
@@ -4104,6 +4116,9 @@ secret_configs:
       - auth_field: token_image-puller_build04_reg_auth_value.txt
         item: build_farm
         registry_url: registry.build04.ci.openshift.org
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
       - auth_field: token_image-puller_vsphere_reg_auth_value.txt
         item: build_farm
         registry_url: registry.apps.build01-us-west-2.vmc.ci.openshift.org
