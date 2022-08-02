@@ -14,7 +14,7 @@ metadata:
   name: release-controller
   namespace: ci
 spec:
-  host: origin-release.apps.ci.l2s4.p1.openshiftapps.com
+  host: origin-release.apps.okd4.theokdexperience.com
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: Edge
@@ -66,7 +66,7 @@ metadata:
   name: release-controller
   namespace: ci
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: release-controller
@@ -204,7 +204,7 @@ metadata:
   name: release-controller-api
   namespace: ci
 spec:
-  replicas: 3
+  replicas: 0
   selector:
     matchLabels:
       app: release-controller-api
