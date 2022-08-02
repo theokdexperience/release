@@ -10,6 +10,7 @@ cluster_groups:
   - build03
   - build04
   - build05
+  - default
   - vsphere
   non_app_ci:
   - arm01
@@ -18,6 +19,7 @@ cluster_groups:
   - build03
   - build04
   - build05
+  - default
   - vsphere
   non_app_ci_arm:
   - arm01
@@ -1920,6 +1922,9 @@ secret_configs:
     build05.config:
       field: sa.pod-scaler.build05.config
       item: pod-scaler
+    default.config:
+      field: sa.pod-scaler.default.config
+      item: pod-scaler
   to:
   - cluster: app.ci
     name: pod-scaler
@@ -2127,6 +2132,9 @@ secret_configs:
     sa.crier.build05.config:
       field: sa.crier.build05.config
       item: build_farm
+    sa.crier.default.config:
+      field: sa.crier.default.config
+      item: build_farm
     sa.crier.vsphere.config:
       field: sa.crier.vsphere.config
       item: build_farm
@@ -2155,6 +2163,9 @@ secret_configs:
       item: build_farm
     sa.config-updater.build05.config:
       field: sa.config-updater.build05.config
+      item: build_farm
+    sa.config-updater.default.config:
+      field: sa.config-updater.default.config
       item: build_farm
     sa.config-updater.hive.config:
       field: sa.config-updater.hive.config
@@ -2191,6 +2202,9 @@ secret_configs:
     sa.deck.build05.config:
       field: sa.deck.build05.config
       item: build_farm
+    sa.deck.default.config:
+      field: sa.deck.default.config
+      item: build_farm
     sa.deck.vsphere.config:
       field: sa.deck.vsphere.config
       item: build_farm
@@ -2220,6 +2234,9 @@ secret_configs:
     sa.hook.build05.config:
       field: sa.hook.build05.config
       item: build_farm
+    sa.hook.default.config:
+      field: sa.hook.default.config
+      item: build_farm
     sa.hook.vsphere.config:
       field: sa.hook.vsphere.config
       item: build_farm
@@ -2248,6 +2265,9 @@ secret_configs:
       item: build_farm
     sa.prow-controller-manager.build05.config:
       field: sa.prow-controller-manager.build05.config
+      item: build_farm
+    sa.prow-controller-manager.default.config:
+      field: sa.prow-controller-manager.default.config
       item: build_farm
     sa.prow-controller-manager.vsphere.config:
       field: sa.prow-controller-manager.vsphere.config
@@ -2289,6 +2309,9 @@ secret_configs:
     sa.sinker.build05.config:
       field: sa.sinker.build05.config
       item: build_farm
+    sa.sinker.default.config:
+      field: sa.sinker.default.config
+      item: build_farm
     sa.sinker.vsphere.config:
       field: sa.sinker.vsphere.config
       item: build_farm
@@ -2312,6 +2335,9 @@ secret_configs:
     sa.dptp-controller-manager.build05.config:
       field: sa.dptp-controller-manager.build05.config
       item: build_farm
+    sa.dptp-controller-manager.default.config:
+      field: sa.dptp-controller-manager.default.config
+      item: build_farm
     sa.dptp-controller-manager.vsphere.config:
       field: sa.dptp-controller-manager.vsphere.config
       item: build_farm
@@ -2334,6 +2360,9 @@ secret_configs:
       item: build_farm
     sa.promoted-image-governor.build05.config:
       field: sa.promoted-image-governor.build05.config
+      item: build_farm
+    sa.promoted-image-governor.default.config:
+      field: sa.promoted-image-governor.default.config
       item: build_farm
     sa.promoted-image-governor.vsphere.config:
       field: sa.promoted-image-governor.vsphere.config
@@ -2373,6 +2402,9 @@ secret_configs:
     sa.ci-operator.build05.config:
       field: sa.ci-operator.build05.config
       item: build_farm
+    sa.ci-operator.default.config:
+      field: sa.ci-operator.default.config
+      item: build_farm
     sa.ci-operator.vsphere.config:
       field: sa.ci-operator.vsphere.config
       item: build_farm
@@ -2403,6 +2435,9 @@ secret_configs:
     sa.ci-chat-bot.build05.config:
       field: sa.ci-chat-bot.build05.config
       item: ci-chat-bot
+    sa.ci-chat-bot.default.config:
+      field: sa.ci-chat-bot.default.config
+      item: ci-chat-bot
     sa.ci-chat-bot.vsphere.config:
       field: sa.ci-chat-bot.vsphere.config
       item: ci-chat-bot
@@ -2428,6 +2463,9 @@ secret_configs:
       item: build_farm
     sa.github-ldap-user-group-creator.build05.config:
       field: sa.github-ldap-user-group-creator.build05.config
+      item: build_farm
+    sa.github-ldap-user-group-creator.default.config:
+      field: sa.github-ldap-user-group-creator.default.config
       item: build_farm
     sa.github-ldap-user-group-creator.hive.config:
       field: sa.github-ldap-user-group-creator.hive.config
@@ -2965,6 +3003,9 @@ secret_configs:
       - auth_field: token_image-puller_build05_reg_auth_value.txt
         item: build_farm
         registry_url: registry.build05.ci.openshift.org
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
   to:
   - cluster: app.ci
     name: registry-pull-credentials-all
@@ -3613,6 +3654,9 @@ secret_configs:
     sa.cluster-display.build05.config:
       field: sa.cluster-display.build05.config
       item: build_farm
+    sa.cluster-display.default.config:
+      field: sa.cluster-display.default.config
+      item: build_farm
     sa.cluster-display.hive.config:
       field: sa.cluster-display.hive.config
       item: build_farm
@@ -4137,6 +4181,123 @@ secret_configs:
     - non_app_ci
     name: cloudfront-buildfarm-internal-registry-private-key
     namespace: openshift-image-registry
+- from:
+    .dockerconfigjson:
+      dockerconfigJSON:
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: image-registry.openshift-image-registry.svc.cluster.local:5000
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: image-registry.openshift-image-registry.svc:5000
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
+      - auth_field: token_image-pusher_app.ci_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.ci.openshift.org
+  to:
+  - cluster: default
+    name: registry-push-credentials-ci-central
+    namespace: ci
+    type: kubernetes.io/dockerconfigjson
+  - cluster: default
+    name: registry-push-credentials-ci-central
+    namespace: test-credentials
+    type: kubernetes.io/dockerconfigjson
+- from:
+    .dockerconfigjson:
+      dockerconfigJSON:
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: image-registry.openshift-image-registry.svc.cluster.local:5000
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: image-registry.openshift-image-registry.svc:5000
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
+      - auth_field: token_image-puller_app.ci_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.ci.openshift.org
+  to:
+  - cluster: default
+    name: registry-pull-credentials
+    namespace: ci
+    type: kubernetes.io/dockerconfigjson
+  - cluster: default
+    name: registry-pull-credentials
+    namespace: test-credentials
+    type: kubernetes.io/dockerconfigjson
+- from:
+    kubeconfig:
+      field: sa.ci-operator.default.config
+      item: build_farm
+  to:
+  - cluster: default
+    name: ci-operator
+    namespace: test-credentials
+- from:
+    .dockerconfigjson:
+      dockerconfigJSON:
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: image-registry.openshift-image-registry.svc.cluster.local:5000
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: image-registry.openshift-image-registry.svc:5000
+      - auth_field: token_image-puller_default_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.default.ci.openshift.org
+      - auth_field: auth
+        email_field: email
+        item: cloud.openshift.com-pull-secret
+        registry_url: cloud.openshift.com
+      - auth_field: auth
+        email_field: email
+        item: quay.io-pull-secret
+        registry_url: quay.io
+      - auth_field: auth
+        email_field: email
+        item: registry.connect.redhat.com-pull-secret
+        registry_url: registry.connect.redhat.com
+      - auth_field: auth
+        email_field: email
+        item: registry.redhat.io-pull-secret
+        registry_url: registry.redhat.io
+      - auth_field: token_image-puller_app.ci_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.ci.openshift.org
+      - auth_field: token_image-puller_arm01_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.arm-build01.arm-build.devcluster.openshift.com
+      - auth_field: token_image-puller_build01_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.build01.ci.openshift.org
+      - auth_field: token_image-puller_build02_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.build02.ci.openshift.org
+      - auth_field: token_image-puller_build03_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.build03.ci.openshift.org
+      - auth_field: token_image-puller_build04_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.build04.ci.openshift.org
+      - auth_field: token_image-puller_build05_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.build05.ci.openshift.org
+      - auth_field: token_image-puller_vsphere_reg_auth_value.txt
+        item: build_farm
+        registry_url: registry.apps.build01-us-west-2.vmc.ci.openshift.org
+  to:
+  - cluster: default
+    name: registry-pull-credentials-all
+    namespace: ci
+    type: kubernetes.io/dockerconfigjson
+  - cluster: default
+    name: registry-pull-credentials-all
+    namespace: test-credentials
+    type: kubernetes.io/dockerconfigjson
 user_secrets_target_clusters:
 - app.ci
 - arm01
@@ -4145,6 +4306,7 @@ user_secrets_target_clusters:
 - build03
 - build04
 - build05
+- default
 - hive
 - vsphere
 vault_dptp_prefix: dptp
